@@ -1,155 +1,26 @@
 {
     "$schema": "../schemas/classes.schema.json",
     "classes": {
-        "AGENT_LEADER": {
-            "title": "Лидер AGENT",
-            "icon_id": 15,
+        "NETSEC_OPLEADER": {
+            "title": "Лидер операции",
+            "icon_id": 1,
             "unique": true,
             "guaranteed": true,
-            "faction": "AGENT",
-            "type": "Особый",
-            "hack_chance": "средний",
-            "skills": [
-                "UNSKILLED_ATTACK",
-                "ALL_IN",
-                "ROLLBACK",
-                "COMPUTER_FORENSICS_BACKGROUND",
-                "MEET_DISCUSS",
-                "STRIKE_DEAL",
-                "INTELLIGENCE_INFORMER",
-                "COVER_CHECKS_OUT",
-                "TOPOLOGY_KNOWLEDGE",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вам поручили прикрыть деятельность NETSEC навсегда - опасное задание... Но вам придётся его выполнить. Вы не можете прибегать к насилию, но на вашей стороне правительство - и его ресурсы..."
-        },
-        "AGENT_FIELD": {
-            "title": "Оперативник AGENT",
-            "icon_id": 16,
-            "unique": true,
-            "guaranteed": true,
-            "faction": "AGENT",
-            "type": "Оперативник",
-            "skills": [
-                "ALTER_LOGS",
-                "UNSKILLED_ATTACK",
-                "ISP_ISOLATION",
-                "KEYLOGGER_HONEYPOT",
-                "STING",
-                "ARREST",
-                "FOLLOW",
-                "PLANNED_RAID",
-                "TOPOLOGY_KNOWLEDGE",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вам поручен, собственно, арест членов NETSEC. Вы должны тесно сотрудничать с Лидером AGENT, чтобы виновных привлекли к ответственности."
-        },
-        "AGENT_CONVERTED_FIELDOPS": {
-            "title": "Крот (Оперативник)",
-            "icon_id": 17,
-            "unique": false,
-            "guaranteed": false,
-            "faction": "AGENT",
-            "type": "Оперативник",
-            "skills": [
-                "PLANT_FAKE_INFORMATION",
-                "JAM_NETWORK",
-                "SEARCH_FOR_KEYLOGGERS",
-                "WIRETAP",
-                "ADD_ROUTE",
-                "DISORGANIZED_MURDER",
-                "TOPOLOGY_KNOWLEDGE",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вы были частью команды NETSEC, пока органы не постучали вам в дверь. Вы согласились на сделку и теперь, чтобы избежать тюрьмы, вы должны уничтожить ту организацию, в которую раньше вы твёрдо верили. Вы поможете расследованию вашими навыками полевой работы."
-        },
-        "AGENT_CONVERTED_INVESTIGATIVE": {
-            "title": "Крот (Исследователь)",
-            "icon_id": 18,
-            "unique": false,
-            "guaranteed": false,
-            "faction": "AGENT",
-            "type": "Исследователь",
-            "skills": [
-                "ALTER_LOGS",
-                "IMPERSONATE",
-                "FOLLOW",
-                "FRAME",
-                "SETUP",
-                "TOPOLOGY_KNOWLEDGE",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вы были частью команды NETSEC, пока органы не постучали вам в дверь. Вы согласились на сделку и теперь, чтобы избежать тюрьмы, вы должны уничтожить ту организацию, в которую раньше вы твёрдо верили. Вы поможете расследованию вашими навыками расследований, связанных с безопасностью, изнутри самой NETSEC."
-        },
-        "AGENT_CONVERTED_OFFENSIVE": {
-            "title": "Крот (Нападающий)",
-            "icon_id": 19,
-            "unique": false,
-            "guaranteed": false,
-            "faction": "AGENT",
-            "type": "Нападающий",
-            "skills": [
-                "UNSKILLED_ATTACK",
-                "ROLLBACK",
-                "HARDEN",
-                "MEET_DISCUSS",
-                "WIPE",
-                "TOPOLOGY_KNOWLEDGE",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вы были частью команды NETSEC, пока органы не постучали вам в дверь. Вы согласились на сделку и теперь, чтобы избежать тюрьмы, вы должны уничтожить ту организацию, в которую раньше вы твёрдо верили. Вы поможете расследованию вашими навыками взлома сетей, изнутри самой NETSEC."
-        },
-        "AGENT_RUNAWAY_SNITCH": {
-            "title": "Беглый стукач",
-            "icon_id": 21,
-            "unique": false,
-            "guaranteed": false,
-            "faction": "AGENT",
-            "type": "Особый",
-            "skills": [
-                "UNSKILLED_ATTACK",
-                "DISORGANIZED_MURDER",
-                "SNITCH_TO_COPS",
-                "TOPOLOGY_KNOWLEDGE",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вы паникуете, мысли путаются, и немудрено - NETSEC идёт за вами, и AGENT уже не могут вам помочь. Остановите взлом любой ценой, сбегите и начните новую жизнь в тени."
-        },
-        "NETSEC_ANALYST": {
-            "title": "Аналитик",
-            "icon_id": 9,
-            "unique": false,
-            "guaranteed": false,
             "faction": "NETSEC",
-            "type": "Исследователь",
-            "hack_chance": "низкий",
+            "type": "Особый",
+            "hack_chance": "высокий",
             "skills": [
                 "HACK_NODE",
-                "LOG_ANALYSIS",
-                "DOWNLOAD_INTEL",
-                "MEET_DISCUSS",
-                "ASK_THE_RIGHT_QUESTION",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "Вам нравится математика и статистика. Перед вступлением в NETSEC, это было вашей карьерой. При правильных обстоятельствах вы все еще можете взламывать сети, но ваши партнеры рассчитывают на ваши аналитические навыки."
-        },
-        "NETSEC_BLACKHAT": {
-            "title": "Черношляпник",
-            "icon_id": 4,
-            "unique": false,
-            "guaranteed": false,
-            "faction": "NETSEC",
-            "type": "Нападающий",
-            "hack_chance": "очень высокий",
-            "skills": [
-                "HACK_NODE",
-                "STANDARDEXPLOIT",
-                "DENIAL_OF_SERVICE",
-                "MEET_DISCUSS",
+                "ZERODAY_EXPLOIT",
+                "GRANT_ROOT",
+                "EMERGENCY_EXTRACTION",
+                "MOVE_HIDEOUT",
                 "NOT_A_SNITCH",
-                "PERSON_OF_INTEREST"
+                "BROADCAST",
+                "PERSON_OF_INTEREST",
+                "HIGH_PRIORITY_TARGET"
             ],
-            "description": "Вы не просто хороши во взломе компьютеров - вы также отлично умеете нарушать планы других людей. Ваша основная задача - взлом узлов, но, тем не менее, Лидер операции может поручить вам использовать свои навыки, чтобы замедлить расследование правоохранительных органов."
+            "description": "Вы являетесь лидером операции NETSEC - ваша роль заключается в координации атак и ликвидации потенциальных угроз для вашей операции. Хотя у вас есть навыки взлома, вам нужно сосредоточиться на других вопросах для успеха всей операции. Не попадитесь."
         },
         "NETSEC_CCTV_SPECIALIST": {
             "title": "СОВН-специалист",
@@ -165,6 +36,7 @@
                 "DESPERATE_MEASURES",
                 "MOVE_HIDEOUT",
                 "INSTALL_CCTV_SURVEILLANCE",
+                "FOLLOW",
                 "PERFORM_CCTV_SURVEILLANCE",
                 "PERSON_OF_INTEREST"
             ],
@@ -208,22 +80,24 @@
             ],
             "description": "У вас нет высокого уровня доступа в целевой организации, но ведь это лучше, чем никакого доступа, верно? Вы просто рядовой сотрудник, не боящийся испачкать руки за деньги. Вы не совсем понимаете, почему группа NETSEC нацелилась на вашего работодателя, но вам нет до этого дела. Вам просто мало платят."
         },
-        "NETSEC_IMPROVISED_HACKER": {
-            "title": "Хакер-самоучка",
-            "icon_id": 20,
+        "NETSEC_ANALYST": {
+            "title": "Аналитик",
+            "icon_id": 9,
             "unique": false,
             "guaranteed": false,
             "faction": "NETSEC",
-            "type": "Нападающий",
-            "hack_chance": "очень низкий",
+            "type": "Исследователь",
+            "hack_chance": "низкий",
             "skills": [
                 "HACK_NODE",
+                "LOG_ANALYSIS",
                 "DOWNLOAD_INTEL",
-                "MOVE_HIDEOUT",
-                "DUMPSTER_DIVE",
-                "PERSON_OF_INTEREST"
+                "ASK_THE_RIGHT_QUESTION",
+                "REVIEW_CONNECTION_LOGS",
+                "PERSON_OF_INTEREST",
+                "NETWORK_INSIGHTS"
             ],
-            "description": "Вы никогда не учили ничего о хакинге, и нанимали вас по другим причинам. Вы будете слепо следовать инструкциям и надеяться на лучшее."
+            "description": "Вам нравится математика и статистика. Перед вступлением в NETSEC, это было вашей карьерой. При правильных обстоятельствах вы все еще можете взламывать сети, но ваши партнеры рассчитывают на ваши аналитические навыки."
         },
         "NETSEC_NETWORK_SPECIALIST": {
             "title": "Сетевой специалист",
@@ -237,32 +111,12 @@
                 "HACK_NODE",
                 "WIRESHARK",
                 "INVESTIGATE_NODE",
+                "RELAY_CONNECTION",
                 "COVER_TRACKS",
                 "REVIEW_CONNECTION_LOGS",
                 "PERSON_OF_INTEREST"
             ],
             "description": "Хоть у вас и есть несколько трюков в рукаве для взлома компьютеров, благодаря своим глубоким знаниям в сетевых протоколах и инфраструктуре вы можете быть гораздо полезнее. Конечно, вы можете быть в команде хакеров, но ваши навыки наиболее ценны для исследования собственных товарищей: выяснить, кто лжёт, как можно ранее может быть разницей между тюрьмой и свободой."
-        },
-        "NETSEC_OPLEADER": {
-            "title": "Лидер операции",
-            "icon_id": 1,
-            "unique": true,
-            "guaranteed": true,
-            "faction": "NETSEC",
-            "type": "Особый",
-            "hack_chance": "высокий",
-            "skills": [
-                "HACK_NODE",
-                "ZERODAY_EXPLOIT",
-                "GRANT_ROOT",
-                "EMERGENCY_EXTRACTION",
-                "MOVE_HIDEOUT",
-                "NOT_A_SNITCH",
-                "BROADCAST",
-                "PERSON_OF_INTEREST",
-                "HIGH_PRIORITY_TARGET"
-            ],
-            "description": "Вы являетесь лидером операции NETSEC - ваша роль заключается в координации атак и ликвидации потенциальных угроз для вашей операции. Хотя у вас есть навыки взлома, вам нужно сосредоточиться на других вопросах для успеха всей операции. Не попадитесь."
         },
         "NETSEC_SOCIAL_ENGINEER": {
             "title": "Социальный инженер",
@@ -280,6 +134,43 @@
                 "SELF_PRESERVATION"
             ],
             "description": "Вы немного разбираетесь в компьютерах и умеете взламывать, по необходимости. Впрочем, социальные навыки - ваша истинная сила: лгите и подставляйте, чтобы NETSEC оказалась впереди конкурентов."
+        },
+        "NETSEC_BLACKHAT": {
+            "title": "Черношляпник",
+            "icon_id": 4,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "NETSEC",
+            "type": "Нападающий",
+            "hack_chance": "очень высокий",
+            "skills": [
+                "HACK_NODE",
+                "STANDARDEXPLOIT",
+                "DENIAL_OF_SERVICE",
+                "MOVE_HIDEOUT",
+                "CRITICAL_THINKING",
+                "NOT_A_SNITCH",
+                "PERSON_OF_INTEREST",
+                "HIGH_PRIORITY_TARGET"
+            ],
+            "description": "Вы не просто хороши во взломе компьютеров - вы также отлично умеете нарушать планы других людей. Ваша основная задача - взлом узлов, но, тем не менее, Лидер операции может поручить вам использовать свои навыки, чтобы замедлить расследование правоохранительных органов."
+        },
+        "NETSEC_IMPROVISED_HACKER": {
+            "title": "Хакер-самоучка",
+            "icon_id": 20,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "NETSEC",
+            "type": "Нападающий",
+            "hack_chance": "очень низкий",
+            "skills": [
+                "HACK_NODE",
+                "DOWNLOAD_INTEL",
+                "MOVE_HIDEOUT",
+                "DUMPSTER_DIVE",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "Вы никогда не учили ничего о хакинге, и нанимали вас по другим причинам. Вы будете слепо следовать инструкциям и надеяться на лучшее."
         },
         "NETSEC_SPEARPHISHER": {
             "title": "Фишинг-мошенник",
@@ -312,11 +203,13 @@
                 "UNSKILLED_ATTACK",
                 "SPILL_BEANS",
                 "PLANT_FAKE_INFORMATION",
+                "FOLLOW",
                 "DOXX",
                 "FRAME",
                 "CITIZENS_ARREST",
                 "NO_DIRT_ON_ME",
-                "NOT_A_SNITCH"
+                "NOT_A_SNITCH",
+                "CQC_EXPERT"
             ],
             "description": "Вам нет НИКАКОГО дела до взлома. Вам просто нужны деньги. Место в команде NETSEC стоило вам больших денег, но теперь пришло время заработать по-крупному."
         },
@@ -337,9 +230,29 @@
                 "STEAL_INTEL",
                 "NOT_A_SNITCH",
                 "AGENT_SCUM",
-                "PERSON_OF_INTEREST"
+                "PERSON_OF_INTEREST",
+                "INSURANCE"
             ],
             "description": "Вы пользовались своей должностью в органах, чтобы платить за свой нездоровый образ жизни, и некоторые это заметили, в том числе Лидер операции. Это ваше последнее дело: хватайте деньги и смывайтесь, пока у вас ещё есть время."
+        },
+        "NEUTRAL_DOUBLE_CROSSER": {
+            "title": "Двурушник",
+            "icon_id": 27, 
+            "unique": false,
+            "guaranteed": false,
+            "faction": "NEUTRAL",
+            "win_condition": "Получите компромат на любого оперативника не являющегося агентом, затем используйте навык \"Явиться с повинной\": чтобы победить, вам нужно правильно определить класс вашей цели и она должна быть арестована до конца игры. Вы будете арестованы в ночь использования данного навыка",
+            "type": "Исследователь",
+            "skills": [
+                "HACK_NODE",
+                "DOWNLOAD_INTEL",
+                "NETSEC_BACKGROUND",
+                "WIRETAP",
+                "OBTAIN_EVIDENCE",
+                "TURN_YOURSELF_IN",
+                "ONE_OF_US"
+            ],
+            "description": "Вы работали в группе NETSEC уже долгое время... но вы начали задаваться вопросом если дело действительно стоит всей крови и страданий которые вы, возможно причинили. Возможно, для вас есть лёгкий выход."
         },
         "NEUTRAL_JOURNALIST": {
             "title": "Журналист",
@@ -355,10 +268,49 @@
                 "JOURNALIST_GETSCOOP",
                 "JOURNALIST_WRITEARTICLE",
                 "EXPOSE_OP_LEADER",
+                "RECORD_ARREST",
                 "NO_DIRT_ON_ME",
                 "NOT_A_SNITCH"
             ],
             "description": "Вам удалось купить себе место в NETSEC с помощью кое-каких... связей. Вы здесь, чтобы написать сенсационную статью о том, как один из величайших взломов истории был организован (в случае успеха) или предотвращён правоохранительными органами (в случае неудачи). В любом случае, ваши дела идут в гору - если останетесь в живых, конечно."
+        },
+        "NEUTRAL_LOOSE_CANNON": {
+            "title": "Самоуправщик",
+            "icon_id": 25,
+            "unique": true,
+            "guaranteed": false,
+            "faction": "NEUTRAL",
+            "win_condition": "Ваши условия победы будут объявлены вам в начале каждой новой игры, ваша цель может заключаться в том, чтобы встать на сторону NETSEC или AGENT. Вдобавок, не умрите",
+            "type": "Оперативник",
+            "skills": [
+                "UNSKILLED_ATTACK",
+                "MOVE_HIDEOUT",
+                "DISORGANIZED_MURDER",
+                "AGENT_TRAINING",
+                "FAKE_ESCORT",
+                "AGENT_SCUM",
+                "CQC_EXPERT"
+            ],
+            "description": "Вы были выгнаны из AGENT за несоблюдение их строгих правил. Вы продолжили неофициально исследовать дело пока вы не нашли кое-что гораздо большее. Кому вы будете лояльны, в конце? У Самоуправщика есть разные условия победы, выдано случайно каждую новую игру"
+        },
+        "NEUTRAL_SCRIPT_KIDDIE": {
+            "title": "Скрипт-кидди",
+            "icon_id": 11,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "NEUTRAL",
+            "win_condition": "Ну, теперь-то вы играете с большими мальчиками и хотите сбежать, но уже не можете. Выживите до конца и не будьте арестоваными.",
+            "type": "Нападающий",
+            "skills": [
+                "CREATE_HIDEOUT",
+                "DENIAL_OF_SERVICE",
+                "SCRIPTKIDDIE_ATTACK",
+                "MOVE_HIDEOUT",
+                "NOT_A_SNITCH",
+                "UNSECURED_DEVICE",
+                "WAKE_UP_CALL"
+            ],
+            "description": "Вы - программист-неудачник, с трудом окончивший университет (и то только потому, что жульничали до самого выпуска). Вы всегда хотели стать 'кулхацкером', но у вас нет вообще никаких познаний в IT. Не совсем понятно, как вы оказались в команде - возможно, кто-то сделает вас козлом отпущения?"
         },
         "NEUTRAL_PANICKED_BLABBERMOUTH": {
             "title": "Паникующий болтун",
@@ -391,6 +343,7 @@
             "skills": [
                 "UNSKILLED_ATTACK",
                 "IMPERSONATE",
+                "MOVE_HIDEOUT",
                 "LOOKING4FRIEND",
                 "INTERROGATE",
                 "DISORGANIZED_MURDER",
@@ -398,47 +351,6 @@
                 "HIGH_PRIORITY_TARGET"
             ],
             "description": "Когда-то давно, NETSEC подставили вас. Уже не говоря о том, что с вами сделали AGENT. Вы отомстите, помешав им всем."
-        },
-        "NEUTRAL_RIVAL": {
-            "title": "Хакер-конкурент",
-            "icon_id": 22,
-            "unique": true,
-            "guaranteed": false,
-            "faction": "NEUTRAL",
-            "hack_chance": "средний",
-            "win_condition": "Не дайте NETSEC победить. Выживите.",
-            "type": "Нападающий",
-            "skills": [
-                "UNSKILLED_ATTACK",
-                "HACK_NODE",
-                "HARDEN",
-                "JAM_NETWORK",
-                "MOVE_HIDEOUT",
-                "WIRETAP",
-                "WIPE",
-                "BLACKMAILED_INFORMER",
-                "PERSON_OF_INTEREST"
-            ],
-            "description": "NETSEC, наши соперники, даже не подозревают, что, в кои-то веки, мы их опередили и уже получили доступ к цели. Отличная возможность уничтожить их изнутри на этот раз..."
-        },
-        "NEUTRAL_SCRIPT_KIDDIE": {
-            "title": "Скрипт-кидди",
-            "icon_id": 11,
-            "unique": false,
-            "guaranteed": false,
-            "faction": "NEUTRAL",
-            "win_condition": "Ну, теперь-то вы играете с большими мальчиками и хотите сбежать, но уже не можете. Выживите до конца и не будьте арестоваными.",
-            "type": "Нападающий",
-            "skills": [
-                "CREATE_HIDEOUT",
-                "DENIAL_OF_SERVICE",
-                "SCRIPTKIDDIE_ATTACK",
-                "MOVE_HIDEOUT",
-                "WAKE_UP_CALL",
-                "NOT_A_SNITCH",
-                "UNSECURED_DEVICE"
-            ],
-            "description": "Вы - программист-неудачник, с трудом окончивший университет (и то только потому, что жульничали до самого выпуска). Вы всегда хотели стать 'кулхацкером', но у вас нет вообще никаких познаний в IT. Не совсем понятно, как вы оказались в команде - возможно, кто-то сделает вас козлом отпущения?"
         },
         "NEUTRAL_SOCIOPATH": {
             "title": "Социопат",
@@ -451,6 +363,7 @@
             "type": "Особый",
             "skills": [
                 "HACK_NODE",
+                "UNSKILLED_ATTACK",
                 "CRACK_CREDENTIALS",
                 "FOLLOW",
                 "FRAME",
@@ -459,6 +372,169 @@
                 "NOT_A_SNITCH"
             ],
             "description": "Когда-то вы были очень умелым хакером. К сожалению, ваша психика уже давно нарушена. Вы зациклены на том, чтобы стать известным как самый опасный хакер за всю историю человечества."
+        },
+        "NEUTRAL_RIVAL": {
+            "title": "Хакер-конкурент",
+            "icon_id": 22,
+            "unique": true,
+            "guaranteed": false,
+            "faction": "NEUTRAL",
+            "hack_chance": "средний",
+            "win_condition": "Не дайте NETSEC победить. Выживите.",
+            "type": "Нападающий",
+            "skills": [
+                "HACK_NODE",
+                "UNSKILLED_ATTACK",
+                "HARDEN",
+                "JAM_NETWORK",
+                "MOVE_HIDEOUT",
+                "SETUP",
+                "WIRETAP",
+                "WIPE",
+                "BLACKMAILED_INFORMER",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "NETSEC, наши соперники, даже не подозревают, что, в кои-то веки, мы их опередили и уже получили доступ к цели. Отличная возможность уничтожить их изнутри на этот раз..."
+        },
+        "AGENT_LEADER": {
+            "title": "Лидер AGENT",
+            "icon_id": 15,
+            "unique": true,
+            "guaranteed": true,
+            "faction": "AGENT",
+            "type": "Особый",
+            "hack_chance": "средний",
+            "skills": [
+                "UNSKILLED_ATTACK",
+                "ALL_IN",
+                "ROLLBACK",
+                "COMPUTER_FORENSICS_BACKGROUND",
+                "MEET_DISCUSS",
+                "STRIKE_DEAL",
+                "INTELLIGENCE_INFORMER",
+                "COVER_SUPPORT",
+                "COVER_CHECKS_OUT",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "Вам поручили прикрыть деятельность NETSEC навсегда - опасное задание... Но вам придётся его выполнить. Вы не можете прибегать к насилию, но на вашей стороне правительство - и его ресурсы..."
+        },
+        "AGENT_FIELD": {
+            "title": "Оперативник AGENT",
+            "icon_id": 16,
+            "unique": true,
+            "guaranteed": true,
+            "faction": "AGENT",
+            "type": "Оперативник",
+            "skills": [
+                "ALTER_LOGS",
+                "UNSKILLED_ATTACK",
+                "ISP_ISOLATION",
+                "KEYLOGGER_HONEYPOT",
+                "STING",
+                "ARREST",
+                "PLANNED_RAID",
+                "AGENT_TRAINING",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST",
+                "CQC_EXPERT"
+            ],
+            "description": "Вам поручен, собственно, арест членов NETSEC. Вы должны тесно сотрудничать с Лидером AGENT, чтобы виновных привлекли к ответственности."
+        },
+        "AGENT_FORENSICS_SPECIALIST": {
+            "title": "Криминалист",
+            "icon_id": 26,
+            "unique": true,
+            "guaranteed": false,
+            "faction": "AGENT",
+            "type": "Исследователь",
+            "skills": [
+                "WIRESHARK",
+                "UNSKILLED_ATTACK",
+                "COMPUTER_FORENSICS_BACKGROUND",
+                "UPLOAD_FAKE_INTEL",
+                "ASK_THE_RIGHT_QUESTION",
+                "CCTV_TAKEOVER",
+                "COVER_CHECKS_OUT",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST",
+                "AMBITIOUS_AGENT"
+            ],
+            "description": "Будучи амбициозным криминалистом высшего класса. ваша задача сеять хаос среди NETSEC и всячески помогать расследованию AGENT"
+        },
+        "AGENT_CONVERTED_FIELDOPS": {
+            "title": "Крот (Оперативник)",
+            "icon_id": 17,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "AGENT",
+            "type": "Оперативник",
+            "skills": [
+                "PLANT_FAKE_INFORMATION",
+                "JAM_NETWORK",
+                "SEARCH_FOR_KEYLOGGERS",
+                "WIRETAP",
+                "ADD_ROUTE",
+                "DISORGANIZED_MURDER",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "Вы были частью команды NETSEC, пока органы не постучали вам в дверь. Вы согласились на сделку и теперь, чтобы избежать тюрьмы, вы должны уничтожить ту организацию, в которую раньше вы твёрдо верили. Вы поможете расследованию вашими навыками полевой работы."
+        },
+        "AGENT_CONVERTED_INVESTIGATIVE": {
+            "title": "Крот (Исследователь)",
+            "icon_id": 18,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "AGENT",
+            "type": "Исследователь",
+            "skills": [
+                "ALTER_LOGS",
+                "IMPERSONATE",
+                "DOWNLOAD_INTEL",
+                "MEET_DISCUSS",
+                "FRAME",
+                "SETUP",
+                "COVER_SUPPORT",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "Вы были частью команды NETSEC, пока органы не постучали вам в дверь. Вы согласились на сделку и теперь, чтобы избежать тюрьмы, вы должны уничтожить ту организацию, в которую раньше вы твёрдо верили. Вы поможете расследованию вашими навыками расследований, связанных с безопасностью, изнутри самой NETSEC."
+        },
+        "AGENT_CONVERTED_OFFENSIVE": {
+            "title": "Крот (Нападающий)",
+            "icon_id": 19,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "AGENT",
+            "type": "Нападающий",
+            "skills": [
+                "UNSKILLED_ATTACK",
+                "ROLLBACK",
+                "HARDEN",
+                "WIPE",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "Вы были частью команды NETSEC, пока органы не постучали вам в дверь. Вы согласились на сделку и теперь, чтобы избежать тюрьмы, вы должны уничтожить ту организацию, в которую раньше вы твёрдо верили. Вы поможете расследованию вашими навыками взлома сетей, изнутри самой NETSEC."
+        },
+        "AGENT_RUNAWAY_SNITCH": {
+            "title": "Беглый стукач",
+            "icon_id": 21,
+            "unique": false,
+            "guaranteed": false,
+            "faction": "AGENT",
+            "type": "Особый",
+            "skills": [
+                "UNSKILLED_ATTACK",
+                "JAM_NETWORK",
+                "MOVE_HIDEOUT",
+                "DISORGANIZED_MURDER",
+                "SNITCH_TO_COPS",
+                "TOPOLOGY_KNOWLEDGE",
+                "PERSON_OF_INTEREST"
+            ],
+            "description": "Вы паникуете, мысли путаются, и немудрено - NETSEC идёт за вами, и AGENT уже не могут вам помочь. Остановите взлом любой ценой, сбегите и начните новую жизнь в тени."
         }
     }
 }

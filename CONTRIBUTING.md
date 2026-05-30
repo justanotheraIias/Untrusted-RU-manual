@@ -4,7 +4,7 @@
 
 1. Поддержите саму Untrusted! Любое внимание к проекту (и [покупки в Steam Store](https://www.playuntrusted.com/donate/)) важны.
 2. Можете [открыть issue](https://github.com/Untrusted-RU/manual/issues/new) или связаться с нами
-   в [Discord](https://discord.gg/KC6nPwA8am) (#russian-language), и мы это исправим.
+   в [Discord](https://discord.gg/sksXBkzvsN) (#русский), и мы это исправим.
 3. Можете открыть PR и внести изменения сами - советы ниже.
 
 ## Как изменять перевод
