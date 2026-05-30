@@ -3,7 +3,7 @@
 Любые замечания (например: перевод не актуален для новой версии, опечатки, несостыковки...) приветствуются.
 
 1. Поддержите саму Untrusted! Любое внимание к проекту (и [покупки в Steam Store](https://www.playuntrusted.com/donate/)) важны.
-2. Можете [открыть issue](https://github.com/Untrusted-RU/manual/issues/new) или связаться с нами
+2. Можете [открыть issue](https://github.com/Untrusted-RU/manual/issues/new) (если данный форк не был PR-нут, [открыть тут](https://github.com/justanotheraIias/manual/issues/new)) или связаться с нами
    в [Discord](https://discord.gg/sksXBkzvsN) (#русский), и мы это исправим.
 3. Можете открыть PR и внести изменения сами - советы ниже.
 
