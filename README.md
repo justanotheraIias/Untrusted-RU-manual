@@ -5,7 +5,7 @@
 
 ## Участники
 
-Спасибо всем, кто поучавствовал в переводе и исправлениях, как на [Discord-сервере Untrusted](https://discord.gg/fMkDCrxU6H), так и вне него:
+Спасибо всем, кто поучавствовал в переводе и исправлениях, как на [Discord-сервере Untrusted](https://discord.gg/untrusted), так и вне него:
 
 - Fallen Angel#4169
 - Painted Cat#9159
