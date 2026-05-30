@@ -1,7 +1,7 @@
 # Untrusted-RU/manual
 
 > Перевод онлайн-руководства для игры Untrusted (<https://playuntrusted.com>) на русский язык
-> **ВНИМАНИЕ**: На данный момент Untrusted доступна только на английском языке. Данный перевод - подготовительный этап перед началом локализации самой игры.
+> **ВНИМАНИЕ**: На данный момент Untrusted доступна полноценно только на английском и Итальянском языках. Данный перевод - подготовительный этап перед началом локализации самой игры.
 
 ## Участники
 
@@ -10,6 +10,7 @@
 - Fallen Angel#4169
 - Painted Cat#9159
 - BornToKill946#9771
+- .justanotheralias
 
 Хотите помочь? Смотрите [CONTRIBUTING.md](CONTRIBUTING.md)!
 
@@ -17,4 +18,4 @@
 
 Перевод фанатский и авторский, никаких дополнительных прав или лицензий не установлено.
 Оригинальный контент взят с официального сайта Untrusted - <https://www.playuntrusted.com/manual/>,
-&copy; 2021 playuntrusted.com - all rights reserved - [privacy policy](https://www.playuntrusted.com/privacy-policy/)
+&copy; 2026 playuntrusted.com - all rights reserved - [privacy policy](https://www.playuntrusted.com/privacy-policy/)
