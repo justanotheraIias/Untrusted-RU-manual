@@ -18,9 +18,9 @@ template = "advanced-strategy.html"
             {{ strategy_guide(id="NETSEC_OPLEADER", disabled=true)}}
             {{ strategy_guide(id="AGENT_LEADER", disabled=true)}}
             {{ strategy_guide(id="AGENT_FIELD", disabled=true)}}
+            {{ strategy_guide(id="AGENT_FORENSICS_SPECIALIST", disabled=true)}}
             {{ strategy_guide(id="AGENT_CONVERTED_FIELDOPS", title="Крот (О/И/Н)", path="mole", disabled=true) }}
             {{ strategy_guide(id="AGENT_RUNAWAY_SNITCH", disabled=true)}}
-            {{ strategy_guide(id="NEUTRAL_SCRIPT_KIDDIE", disabled=true)}}
         </tr>
         <tr>
             {{ strategy_guide(id="NEUTRAL_JOURNALIST", disabled=true)}}
@@ -28,6 +28,12 @@ template = "advanced-strategy.html"
             {{ strategy_guide(id="NEUTRAL_BOUNTY_HUNTER", disabled=true)}}
             {{ strategy_guide(id="NEUTRAL_SOCIOPATH", disabled=true)}}
             {{ strategy_guide(id="NEUTRAL_RESENTFUL_CRIMINAL", disabled=true)}}
+            {{ strategy_guide(id="NEUTRAL_CORRUPT_DETECTIVE", disabled=true)}}
+        </tr>
+        <tr>
+            {{ strategy_guide(id="NEUTRAL_LOOSE_CANNON", disabled=true)}}
+            {{ strategy_guide(id="NEUTRAL_SCRIPT_KIDDIE", disabled=true)}}
+            {{ strategy_guide(id="NEUTRAL_DOUBLE_CROSSER", disabled=true)}}
         </tr>
     </tbody>
 </table>
