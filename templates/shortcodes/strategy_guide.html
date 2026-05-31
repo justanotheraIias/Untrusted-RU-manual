@@ -3,7 +3,8 @@
 {% if path %}
 {% set href = "/Untrusted-RU-manual/advanced-strategy/" ~ path %}
 {% else %}
-{% set href = "/Untrusted-RU-manual/advanced-strategy/" ~ id | lower | replace(from="_", to="-") %}
+{% set id_slug = id | lower | replace(from="_", to="-") %}
+{% set href = "/Untrusted-RU-manual/advanced-strategy/" ~ id_slug %}
 {% endif %}
 {% if not disabled %}
 <td style="width: 150px;">
