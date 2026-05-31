@@ -81,8 +81,7 @@ title = "Руководство"
   - [ ] Стратегия игры - Злопамятный преступник
 - [x] Словарь
 
-Если у вас есть любые вопросы или замечания касательно перевода,
-свяжитесь со мной через Steam ([orekushii](https://steamcommunity.com/id/orekushii))
-или Discord (BrightOne#2574).
+На данный момент перевод поддерживает [Alias / .justAnotherAlias](https://github.com/justanotheraIias), оригинальный перевод от [orekushii](https://steamcommunity.com/id/orekushii)
 
 Перевод обновлён 20.09.2021 для версии Untrusted 1.118.
+TODO: ОБНОВИТЬ ДАТУ И ВЕРСИЮ ПО ОКОНЦАНИЮ
