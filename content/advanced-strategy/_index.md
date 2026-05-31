@@ -15,7 +15,7 @@ template = "advanced-strategy.html"
 <table style="width: 300px;">
     <tbody>
         <tr>
-            {{ strategy_guide(id="NETSEC_OPLEADER", disabled=true)}}
+            {{ strategy_guide(id="NETSEC_OPLEADER")}}
             {{ strategy_guide(id="AGENT_LEADER", disabled=true)}}
             {{ strategy_guide(id="AGENT_FIELD", disabled=true)}}
             {{ strategy_guide(id="AGENT_FORENSICS_SPECIALIST", disabled=true)}}
