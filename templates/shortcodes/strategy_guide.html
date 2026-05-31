@@ -1,9 +1,9 @@
 {% set classes = load_data(path="data/classes.json") %}
 {% set class = classes["classes"][id] %}
 {% if path %}
-{% set href = "/advanced-strategy/" ~ path %}
+{% set href = "/Untrusted-RU-manual/advanced-strategy/" ~ path %}
 {% else %}
-{% set href = "/advanced-strategy/" ~ id | lower | replace(from="_", to="-") %}
+{% set href = "/Untrusted-RU-manual/advanced-strategy/" ~ id | lower | replace(from="_", to="-") %}
 {% endif %}
 {% if not disabled %}
 <td style="width: 150px;">
