@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://justanotheraiias.github.io/Untrusted-RU-manual/sitemap.xml
